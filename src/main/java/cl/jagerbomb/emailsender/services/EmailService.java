@@ -1,5 +1,5 @@
 package cl.jagerbomb.emailsender.services;
 
 public interface EmailService {
-    void sendSimpleEmail();
+    void sendSimpleEmail(String destiny);
 }

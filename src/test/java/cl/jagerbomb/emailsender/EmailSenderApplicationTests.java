@@ -13,7 +13,7 @@ class EmailSenderApplicationTests {
 
     @Test
     void sendSimpleEmail() {
-        emailService.sendSimpleEmail();
+        emailService.sendSimpleEmail("");
     }
 
 }
